@@ -9,7 +9,7 @@ cask "markdownviewer" do
 
   # 当前仅提供 Apple Silicon (arm64) 构建
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Markdown Viewer.app"
 
